@@ -1,0 +1,21 @@
+body{margin:0;font-family:sans-serif;background:#0e0f12;color:#fff}
+.container{max-width:1000px;margin:auto;padding:0 16px}
+.nav{position:sticky;top:0;background:#15171c;padding:10px}
+.nav-inner{display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:bold}
+.nav a{color:#fff;margin-left:15px;text-decoration:none}
+.hero{padding:60px 0;text-align:center;background:#222}
+.btn{display:inline-block;margin-top:12px;padding:10px 16px;background:#74ffd8;color:#000;text-decoration:none;border-radius:8px}
+.btn.outline{background:transparent;border:1px solid #74ffd8;color:#74ffd8}
+.section{padding:40px 0}.section.alt{background:#1a1c20}
+.grid{display:grid;gap:16px}.grid.two{grid-template-columns:1fr}.grid.three{grid-template-columns:1fr}
+@media(min-width:700px){.grid.two{grid-template-columns:1fr 1fr}.grid.three{grid-template-columns:repeat(3,1fr)}}
+.list{list-style:none;padding:0;margin:0;border:1px solid #333;border-radius:10px;overflow:hidden}
+.list li{display:flex;justify-content:space-between;padding:10px;border-bottom:1px solid #333}
+.list li:last-child{border-bottom:none}
+.card{background:#15171c;padding:16px;border-radius:10px}
+.price{margin-top:8px;color:#ffd274;font-weight:bold}
+.tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:10px 0}
+.tags li{border:1px solid #333;border-radius:20px;padding:6px 12px}
+.contact{list-style:none;padding:0}.contact li{margin:6px 0}
+.footer{border-top:1px solid #333;padding:16px;text-align:center;color:#aaa}
